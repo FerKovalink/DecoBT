@@ -104,10 +104,6 @@ nav img {
 
 /* Productos */
 .main__producto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
     margin: 0 3% 3% 3%;
     border-radius: 10px;
     background-color: #bd8e71;
