@@ -1,5 +1,5 @@
 # DecoKids
 
-https://ferkovalink.github.io/DecoBT/
+https://ferkovalink.github.io/DecoBT/index.html
 
 
