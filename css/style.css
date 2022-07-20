@@ -31,7 +31,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 .bg-deco{
@@ -67,7 +66,7 @@ nav img{
 /* Galeria de Fotos */
 .galeria-container {
     display: flex;
-    margin: 8%;
+    margin: 3% 2% 2% 2%;
     padding: 1% 2%;
     flex-wrap: wrap;
     background: radial-gradient(circle, rgba(252, 248, 232, 1) 0%, rgba(189, 142, 113, 1) 38%);
@@ -251,7 +250,7 @@ nav img{
 
 .formulario button {
     width: 90%;
-    height: 35px;
+    height: auto;
     padding-left: 5px;
     padding-right: 5px;
     margin-bottom: 20px;
@@ -405,6 +404,17 @@ nav img{
     .banner img{
         width: 50%;
     }
+
+    /* Contacto */
+    .contacto{
+        width: 75%;
+    }
+    .contacto__vid{
+        width: 75%;
+        padding: 10px;
+
+    }
+
     /* Footer */
     .foot h1 {
         font-size: 2rem;
@@ -414,7 +424,8 @@ nav img{
 @media (min-width: 720px) {
 
     /* Galeria */
-    .galeria-container {
+    .galeria-container{
+        margin: 2% 10%;
         padding: 1% 1%;
     }
 
@@ -422,6 +433,8 @@ nav img{
         flex: 25%;
         padding: 5px;
     }
+
+    
 
     .galeria h2 {
         font-size: 2rem;
@@ -547,14 +560,34 @@ nav img{
     .prod__titulo {
         margin: 0;
     }
+
+    /* Galeria Container */
+    .galeria-container{
+        margin: 2% 10%;
+    }
 }
 
-@media (min-width: 991px) {
+@media (min-width: 992px) {
 
+    /* Nav */
+    nav{
+        width: 60%;
+        margin-top: 10px;
+        border-radius: 360px;     
+    }
     nav img{
         margin-left: 20%;
     }
 
+    nav ul li a{
+        font-size: 2rem;
+        margin: 0 8px;
+    }
+
+    /* Banner */
+    .banner img{
+        width: 40%;
+    }
 
     /* Productos */
     .main__producto {
@@ -589,9 +622,14 @@ nav img{
         padding: 2%;
         margin-left: 2%;
         margin-right: 1%;
-        width: 40%;
+        width: 25%;
         border-radius: 20px;
         background: radial-gradient(circle, rgba(189, 142, 113, 1) 66%, rgba(216, 206, 165, 1) 89%);
+    }
+
+    /* Contacto */
+    .contacto__vid2{
+        width: 40%;
     }
 
     /* Acerca de */
@@ -639,7 +677,7 @@ nav img{
     }
 
     .contacto__vid2 {
-        width: 80%;
+        width: 60%;
         margin-right: 50px;
     }
 
