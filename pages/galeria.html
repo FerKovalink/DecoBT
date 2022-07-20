@@ -29,7 +29,7 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="contacto.html">Nosotros</a>
+                                <a class="nav-link" href="contacto.html">Contacto</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="galeria.html">Galeria</a>
@@ -38,7 +38,7 @@
                                 <a class="nav-link"href="productos.html">Productos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="acerca.html">Otro mas</a>
+                                <a class="nav-link" href="acerca.html">Nosotros</a>
                             </li>
                         </ul>
                     </div>
@@ -49,33 +49,34 @@
             <img src="../img/logos/victoria.png">
         </div>
     </header>
-     <main>
-         <div class="galeria-container">
-             <div class="galeria">
-                 <img src="../img/productos/producto5.jpg" class="galeria__img" />
-                 <img src="../img/productos/producto2.jpg" class="galeria__img" />
-                 <img src="../img/productos/producto7.jpg" class="galeria__img" />
-             </div>
-             <div class="galeria">
-                 <div>
-                     <h2>Galeria de Imagenes</h2>
-                 </div>
-                 <img src="../img/productos/producto6.jpg" class="galeria__img" />
-                 <img src="../img/productos/producto4.jpg" class="galeria__img" />
-                 <img src="../img/productos/producto3.jpg" class="galeria__img" />
-             </div>
-
-             <div class="galeria galeria__xs">
-                 <img src="../img/chichoneras/chichonera1.jpg" class="galeria__img" />
-                 <img src="../img/chichoneras/chichonera5.jpg" class="galeria__img" />
-                 <img src="../img/chichoneras/chichonera6.jpg" class="galeria__img" />
-             </div>
-
-             <div class="galeria galeria__xl">
-                 <img src="../img/cambiador/cambiador4.jpg" class="galeria__img" />
-                 <img src="../img/productos/producto1.jpg" class="galeria__img" />
-                 <img src="../img/productos/producto7.jpg" class="galeria__img" />
-             </div>
+     <main class="galeria-body">
+         <div class="galeria-bt">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="../img/chichoneras/chichonera1.jpg" class="d-block w-100" alt="Fotos de la galeria">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="../img/chichoneras/chichonera5.jpg" class="d-block w-100" alt="Fotos de la galeria">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/chichoneras/chichonera6.jpg" class="d-block w-100" alt="Fotos de la galeria">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
          </div>
          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
              integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
